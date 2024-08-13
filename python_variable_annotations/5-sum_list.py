@@ -3,11 +3,15 @@
 """
 Module: 5-sum_list
 
-This module contains a function to sum all the elements in a list of floating-point numbers.
+This module contains a function to sum all
+the elements in a list of floating-point numbers.
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+from typing import List
+
+
+def sum_list(input_list: List[float]) -> float:
     """
     Sums all the elements in a list of floating-point numbers.
 
@@ -30,4 +34,3 @@ def sum_list(input_list: list[float]) -> float:
     for num in input_list:
         result = result + num
     return result
-
