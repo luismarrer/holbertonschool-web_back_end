@@ -1,4 +1,5 @@
 const express = require('express');
+// eslint-disable-next-line import/extensions
 const countStudents = require('./3-read_file_async.js');
 
 const app = express();
