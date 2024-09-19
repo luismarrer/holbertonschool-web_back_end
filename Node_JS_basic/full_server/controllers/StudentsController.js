@@ -1,7 +1,7 @@
 import readDatabase from '../utils';
 
 class StudentsController {
-static getAllStudents(_req, res) {
+  static getAllStudents(_req, res) {
     res.status(200);
     readDatabase(process.argv[2])
       .then((data) => {
